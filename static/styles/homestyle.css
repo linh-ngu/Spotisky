@@ -1,0 +1,67 @@
+body {
+    background-image: url("images/26098f2f9172964db70a8accf4dd9d7f.jpeg");
+    background-color: #e9e7e1;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding:0;
+    margin:0;
+    color: white;
+}
+
+h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 100px;
+    margin: 0;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.login {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 5vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 250ms;
+    color: white;
+}
+
+.login a {
+    position: relative;
+    width: 14.5vw;
+    max-width: 80px;
+    height: 10.1vh;
+    max-height: 80px;
+    display: inline-block;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 5vmin;
+    border: 1px solid white;
+    /* border: 1px solid rgba(255, 255, 255, 0.4); */
+    box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+}
+
+.container:hover {
+    transform: translateY(-25px);
+}

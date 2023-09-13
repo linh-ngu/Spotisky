@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background: rgba(175, 85, 10, 0.9);
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    /*
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    */
+}
+.top {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    padding-bottom: 25px;
+    border-bottom: 2.5px solid white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer {
+    color: white;
+    background: rgba(24, 16, 57, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    height: 50px;
+    width: 100%;
+    gap: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.astro-sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.content-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+}
+
+.description {
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+.social-img {
+    height: 45px;
+    width: 45px;
+}
+
+.content-head {
+    display: flex;
+    gap: 10px;
+}
+
+.content-body img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    box-shadow: 0  4px 8px 0 rgba(255, 255, 255, 0.4), 0 6px 20px 0 rgba(255, 255, 255, 0.49);
+}
+
+.song-title {
+    font-size: 25px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+}
+
+
+.fade-back1 {
+    background: linear-gradient(rgba(197, 108, 35, 0.9), rgba(236, 169, 114, 0.9));
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.fade-back2 {
+    background: linear-gradient(rgba(236, 169, 114, 0.9), rgba(155, 58, 103, 0.9));
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.fade-back3 {
+    background: linear-gradient(rgba(155, 58, 103, 0.9), rgba(152, 63, 152, 0.9));
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.fade-back4 {
+    background: linear-gradient(rgba(152, 63, 152, 0.9), rgba(70, 32, 164, 0.9));
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.fade-back5 {
+    background: linear-gradient(rgba(70, 32, 164, 0.9), rgba(24, 16, 57, 0.9));
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
